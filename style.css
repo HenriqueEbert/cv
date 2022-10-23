@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+:root{
+
+    --fonte-desteque: 'Bebas Neue', cursive;
+    --font-texto: 'Oleo Script Swash Caps', cursive;
+    --fonte-text: 'Pacifico', cursive;
+    --fonte-tex: 'Silkscreen', cursive;
+     }
+
+     
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header {
+        min-width: 720px;
+    width: 100%;}
+    
+}
+
+iframe{
+    min-width: 441px;
+    height: 325px;
+    
+    border: 2px solid gray;
+    box-shadow:  1px 1px 5px black;
+
+}
+
+h3{
+    margin-left: 0.5%;
+    color: black;
+    font-family: var(--fonte-desteque);
+}
+
+h5{
+    margin-left: 0.5%;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+
+
+
+.img{
+    width: 250px;
+    height: 250px;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-radius: 50%;
+    
+
+    }
+
+    iframe{
+        width:94vw;
+    }
+
+    .inf{
+        
+        
+        margin-left: 5%;
+        margin-top: 5%;
+        font-family: var(--fonte-texto);
+        
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: cyan;
+        
+    }
+
+    .certi{
+        color: lime;
+        font-family: var(--fonte-texto);
+        font-weight: bolder;
+        text-shadow: 1px 1px 2px black;
+    }
+
+
+    .menu{
+        margin-top: 10px;
+        margin-left: 10px;
+        min-width: 720px;
+        width: 100%;
+        
+    }
+
+    .imagens{
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+
+.container{
+    display: flex;
+}
+
+
+
+
+ .redes-scoiais{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.redes{
+margin-left: 1%;
+margin-top: 25px;
+
+
+}
+
+.link {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link :hover{
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+}
+
+
+
+
+
+.certifcados > h3 {
+    
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    color: white ;
+    text-align: center;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+
+.Diplomas > h3 {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    text-align: center;
+    color: white ;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    
+    
+}
+
+
+.teste > h3 {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.61) ;
+    text-align: center;
+    color: white ;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.exp > h3 {
+    text-decoration: none;
+    background-color:black ;
+    text-align: center;
+    color: white ;
+    font-family: var(--fonte-tex);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.exp {   
+    background-color: black;
+    min-width: 720px;
+    width: 100%;}
+
+
+
+
+
+.topo {
+    color: red;
+    min-width: 720px;
+    width: 100%;
+    
+}
+
+
+.teste{
+    background-color: black;
+    background-color: black;
+    min-width: 720px;
+    width: 100%;}
+
+ 
+
+
+
+
+aside{
+    margin-top: 2%;
+    margin-left: 2%;
+    min-width: 720px;
+    width: 100%;
+
+
+}
+
+.top{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-desteque);
+    text-align: center;
+    min-width: 720px;
+    width: 100%;
+
+
+}
+
+
+
+
+.certifcados{
+    background-color: black;
+    min-width: 720px;
+    width: 100%;
+
+}
+
+.Diplomas{
+    background-color: black;
+    min-width: 720px;
+    width: 100%;
+}
+
+.cert{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.home{
+    margin-left: 50%;
+    margin-top: 5%;
+    background-color: black;
+    color:red;
+    width: 50px
+}
+
+.home > a{
+    color: lime;
+    font-size: 20px;
+    
+}
+
+.home > a:hover{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    color:white;
+    padding: 5px;
+    word-spacing: 10px;
+    text-align: center;
+    min-width: 720px;
+    width: 100%;
+}
+
+nav > a{
+    color: white;
+    font-size: 15px;
+    font-family: var(--fonte-tex);
+
+    
+}
+
+nav > a:hover {
+    background-color: black;
+    color: red;
+
+    }
+    
